@@ -31,7 +31,7 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)  # Set height to HD resolution (1920x10
 
 # Initialize the InferencePipeline (this assumes a class like InferencePipeline exists in your codebase)
 pipeline = InferencePipeline.init(
-    model_id="cycle-race/1",
+    model_id="finalprojectdl/1",
     video_reference=cap,  # Use the modified video capture object
     on_prediction=my_custom_sink,
 )
