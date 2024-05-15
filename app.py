@@ -5,7 +5,7 @@ import cv2
 import supervision as sv
 
 # Define the RTSP URL you want to use
-rtsp_url = "rtsp://clipper-1.zerolatency.tv:554/rcs/feed1satvmix"
+rtsp_url = 0
 
 # Define a custom sink function to process predictions
 def my_custom_sink(predictions: dict, video_frame: VideoFrame):
